@@ -1,0 +1,175 @@
+No. Akun	Nama Akun	Saldo Normal
+110302	Account Receivable PHP	Debit
+110402	Advance Purchase PHP	Debit
+210102	Account Payable PHP	Credit
+210202	Advance Sales PHP	Credit
+1000001	Petty Cash - IDR	Debit
+1000002	Petty Cash - USD	Debit
+1000003	Petty Cash - JPY	Debit
+1020001	BII IDR a/c 2232000818	Debit
+1020002	BTM UFJ IDR a/c 665156155	Debit
+1020003	Mizuho IDR	Debit
+1020004	SMBC IDR a/c1011910401	Debit
+1020005	Resona IDR a/c 01034864000	Debit
+1020006	BTM USD A/C 665-894622	Debit
+1020007	Mizuho USD	Debit
+1020008	SMBC USD a/c1011910402	Debit
+1020009	Resona USD a/c 01066333066	Debit
+1020010	Time deposit IDR - BII	Debit
+1020012	Danamon IDR 003669932927	Debit
+1030000	Cash-Bank Transfer (Ayat Silang)	Debit
+1040001	Account Receivable - USD	Debit
+1040002	Account Receivable - IDR	Debit
+1040003	Account Receivable - JPY	Debit
+1040004	Account Receivable - CNY	Debit
+1050002	Advance Purchase - IDR	Debit
+1050003	Advance Purchase - JPY	Debit
+1050004	Advance Purchase - CNY	Debit
+1051000	Advance Payment IDR	Debit
+1051001	Advance Payment USD	Debit
+1051002	Advance Payment JPY	Debit
+1080001	Inventory - Raw Material	Debit
+1080002	Inventory - in transit	Debit
+1080003	Inventory - WIP	Debit
+1080004	Inventory - Finished Goods	Debit
+1080005	Inventory - Mold & Spareparts	Debit
+1080006	Inventory - Mold & Sparepart in transit	Debit
+1090001	Prepaid Taxes - VAT input	Debit
+1090002	Prepaid Taxes - Prep. tax 22	Debit
+1090004	Prepaid Taxes - Prep. tax 23	Debit
+1100001	Prepaid exp - Rent. Apartment	Debit
+1100002	Prepaid exp - Insurance	Debit
+1100099	Prepaid exp - Others USD	Debit
+1100100	Prepaid exp - Others IDR	Debit
+1100101	Prepaid exp - Others JPY	Debit
+1110002	Building & Factory	Debit
+1110003	Machinery & Equipment	Debit
+1110005	Furniture & Fixtures	Debit
+1120002	Accum Dep - Building & Factory	Credit
+1120003	Accum Dep - Mach & Equipment	Credit
+1120005	Accum Dep - Furniture & Fixt.	Credit
+1120006	Accum Dep - FA Under Cap Lease	Credit
+1160001	Refundable Deposit IDR	Debit
+1160002	Provision for refundable deposit impairment IDR	Credit
+1160004	Refundable Deposit - Sedana	Debit
+1170001	Intangible Fixed Asset	Debit
+1170002	Deffered Charge Landright	Debit
+1180001	Other non-current asset IDR	Debit
+1180002	Other current asset IDR	Debit
+1220000	Right of Use Assets - Accumulated Depreciation	Credit
+2010001	Trade Payable - USD	Credit
+2010002	Trade Payable - IDR	Credit
+2010003	Trade Payable - JPY	Credit
+2010004	Trade Payable - CNY	Credit
+2010005	Trade Payable - PHP	Credit
+2020002	Advance Sales-IDR	Credit
+2020003	Advance Sales-JPY	Credit
+2020004	Advance Sales-CNY	Credit
+2030001	Inc tax payable art 21	Credit
+2030003	VAT Out IDR	Credit
+2030004	Inc tax payable art 26	Credit
+2030005	Inc tax payable art 4(2)	Credit
+2030008	Inc tax payable art 23	Credit
+2030009	Tax payables - others IDR	Credit
+2040001	Accrued expenses-USD	Credit
+2040002	Accrued Expenses-IDR	Credit
+2040003	Accrued expenses-JPY	Credit
+2040004	Accrued expenses-CNY	Credit
+2040005	Accrued interest IDR	Credit
+2040006	Accrued interest USD	Credit
+2070001	Leasing Payable - Current	Credit
+2070002	OTHER PAYABLE	Credit
+2090002	Provision of emp. benefit	Credit
+3000002	Sales - HPPM	Credit
+3000003	Sales - Kaneta Kogyo Co., Ltd	Credit
+3000004	Sales - PT Astra Honda Motor	Credit
+3000006	Sales - PT Honda Trading	Credit
+3000007	Sales - Jatco (Guangzhou)	Credit
+3000008	Sales - Jatco (Mexico)	Credit
+3000009	Sales - Jatco (HQ)	Credit
+3000010	Sales - Kaneta Kogyo Foshan	Credit
+3000014	Sales - Jatco (Thailand)	Credit
+3000012	Sales IDR - PT Aichikiki Autoparts	Credit
+3000013	Sales - PT FCC Indonesia	Credit
+3000015	Sales - FCC Mexico	Credit
+3000017	Sales - Jatco (Suzhou)	Credit
+3000018	Sales - HPMC	Credit
+3000099	Sales - Others	Credit
+5010008	Cost of good sold	Debit
+5200001	WIP Consumed - transfer to FG	Debit
+5200002	WIP Consumed - WIP Consumed	Debit
+5300001	Consump.of mat-Consump. of RM	Debit
+5500001	Direct labor cost-Sal&Wages	Debit
+5500002	Direct labor cost-THR/Bonus	Debit
+5500003	Direct labor cost-Welfare	Debit
+5500004	Direct labor cost-Jamsostek	Debit
+5500005	Direct labor cost-tax art. 21	Debit
+5500006	Direct labor cost-Meals exp	Debit
+5500007	Direct labor cost-DPKK	Debit
+5500008	Direct labor cost-Emp. Benefit exp.	Debit
+5500009	Direct Fab cost-Cons. tools	Debit
+5500010	Direct Fab cost-Electricity	Debit
+5500011	Direct Fab cost-Fuel,Oil,Lubri	Debit
+5500012	Direct Fab cost-Supervisor fee	Debit
+5500013	Direct Fab cost-Water supply	Debit
+5500014	Direct Fab cost-Fact. supplies	Debit
+5500015	Direct Fab Cost Cons PPC-QC	Debit
+5500016	Direct Fab Cost Cons PPC-MT	Debit
+5500018	Direct Fab Cost Cons QC Tools	Debit
+5500019	Direct Fab Cost Cons MT Tools	Debit
+5500020	Direct Fab Cost Cons MF Tools	Debit
+5500021	Direct Fab Cost-Del Equip/GA	Debit
+5500022	FOH - Insurance	Debit
+5500023	FOH - Maintenance & Repair	Debit
+5500024	FOH - Rental & Leasehold	Debit
+5500026	FOH - Importation fee	Debit
+5500027	FOH - Depreciation	Debit
+5500028	FOH - Travel	Debit
+5500029	FOH - Carburizing	Debit
+5500032	FOH - Depreciation of Right of Use Assets	Debit
+5500999	FOH - Others	Debit
+6010001	G&A - Salary (Director)	Debit
+6010002	G&A - Salary (Workers)	Debit
+6010003	G&A - THR / Bonus	Debit
+6010004	G&A - Welfare	Debit
+6010005	G&A - Meals	Debit
+6010006	G&A - Jamsostek	Debit
+6010008	G&A - Communication exp	Debit
+6010009	G&A - Postage exp	Debit
+6010010	G&A - Office Supplies	Debit
+6010011	G&A - Stationery	Debit
+6010012	G&A - Consultant fee	Debit
+6010013	G&A - Rental & Leasehold	Debit
+6010014	G&A - Insurance	Debit
+6010015	G&A - Entertainment	Debit
+6010016	G&A - Travelling exp	Debit
+6010017	G&A - Bank Charge	Debit
+6010018	G&A - Repair & Maintenance	Debit
+6010019	G&A - Royalty	Debit
+6010021	G&A - Depreciation	Debit
+6010022	G&A - Inc. tax. 21	Debit
+6010023	G&A - DPKK	Debit
+6010024	G&A - Selling Transportation	Debit
+6010025	G&A - Software Maintenance	Debit
+6010026	G&A - Membership Fee	Debit
+6010027	G&A - Emp. Benefit exp.	Debit
+6010028	G&A - Books & Newspaper	Debit
+6010029	G&A - Security exp	Debit
+6010030	G&A - Estate service	Debit
+6010031	G&A - Documentation Fee	Debit
+6010032	G&A - Bank Guarantee	Debit
+6010037	G&A - Accommodation	Debit
+6010038	G&A - Audit Fee	Debit
+6010041	G&A - Amortization Intangible Asset	Debit
+6100042	G&A - Depreciation of Right of Use Assets	Debit
+7000001	Interest income	Credit
+7000999	Miscellaneous income	Credit
+8000001	Interest expense	Debit
+8000003	Forex exchange Loss (Gain)	Debit
+8000999	Miscellaneous expenses	Debit
+1060000-2	Other receivable IDR	Debit
+1060000-3	Interest Receivables	Credit
+1070000-1	Other Rec.- Related party - USD	Debit
+1070000-2	Other Rec.- Related party - IDR	Debit
+1070000-3	Allowance for other receivable impairment	Debit
+1070000-4	Other Rec.- Related party - JPY	Credit
