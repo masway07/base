@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Master Data</title>
+<style>body{font-family:system-ui,sans-serif;margin:24px;color:#1f2937}nav{display:flex;gap:8px;margin-bottom:16px}
+button{padding:8px 14px;border:1px solid #2563eb;background:#fff;color:#2563eb;border-radius:6px;cursor:pointer}
+button.on{background:#2563eb;color:#fff}table{border-collapse:collapse;width:100%}th,td{border:1px solid #e5e7eb;padding:6px 10px;text-align:left}
+th{background:#f3f4f6;position:sticky;top:0}input{padding:8px;width:300px;margin-bottom:12px}</style></head>
+<body><h1>Master Data</h1><nav id="nav"></nav><input id="q" placeholder="Filter..."><div id="out"></div>
+<script>
+const files=["Account.txt","Dept.txt","Nama Barang.txt"];let rows=[];
+async function load(f){document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.textContent===f));
+const t=await (await fetch("../../"+encodeURIComponent(f))).text();rows=t.split(/\r?\n/).filter(l=>l.trim()).map(l=>l.split("\t"));render();}
+function render(){const q=document.getElementById("q").value.toLowerCase();const[h,...b]=rows;
+const e=s=>s.replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+document.getElementById("out").innerHTML="<p>"+b.filter(r=>r.join(" ").toLowerCase().includes(q)).length+" rows</p><table><tr>"+h.map(c=>"<th>"+e(c)+"</th>").join("")+"</tr>"+
+b.filter(r=>r.join(" ").toLowerCase().includes(q)).map(r=>"<tr>"+r.map(c=>"<td>"+e(c)+"</td>").join("")+"</tr>").join("")+"</table>";}
+files.forEach(f=>{const b=document.createElement("button");b.textContent=f;b.onclick=()=>load(f);nav.appendChild(b)});
+document.getElementById("q").oninput=render;load(files[0]);
+</script></body></html>
